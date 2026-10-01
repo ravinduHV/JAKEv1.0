@@ -54,7 +54,7 @@ function Index() {
               <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted-foreground sm:text-base">Designed to assist people, simplify everyday interactions, and explore how intelligent service robots can operate in real environments.</p>
               <div className="mt-8 grid gap-3 sm:flex">
                 <Button asChild size="lg" className="glow h-12 font-mono text-[11px] uppercase tracking-[0.16em]"><a href="#jake">Explore JAKE <ArrowDownRight /></a></Button>
-                <Button asChild size="lg" variant="outline" className="h-12 font-mono text-[11px] uppercase tracking-[0.16em]"><a href="#join">Join the project</a></Button>
+                <Button asChild size="lg" variant="outline" className="h-12 font-mono text-[11px] uppercase tracking-[0.16em]"><a href="https://forms.gle/QdBmCoCjYrANhGS57" target="_blank" rel="noopener noreferrer">Join the project</a></Button>
               </div>
             </Reveal>
             <Reveal className="relative flex min-h-[330px] items-end justify-center sm:min-h-[420px] lg:min-h-[640px]">
@@ -117,7 +117,7 @@ function Index() {
         <section id="join" className="bg-page relative overflow-hidden border-t border-border px-5 py-24 sm:px-8 sm:py-32 lg:px-12 lg:py-40">
           <div className="join-glow" />
           <div className="relative mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[1fr_0.58fr]">
-            <Reveal><Label><span className="text-primary">06</span> · Join Project JAKE</Label><h2 className="mt-5 max-w-4xl font-display text-4xl font-semibold uppercase leading-[1.02] sm:text-6xl lg:text-7xl">Build what<br /><span className="text-primary">moves next.</span></h2><p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">Be part of an emerging service-robot initiative shaped by people, purpose, and a real-world vision.</p><Button asChild size="lg" className="glow mt-9 h-12 font-mono text-[11px] uppercase tracking-[0.16em]"><a href="#top">Join Project JAKE <ArrowRight /></a></Button></Reveal>
+            <Reveal><Label><span className="text-primary">06</span> · Join Project JAKE</Label><h2 className="mt-5 max-w-4xl font-display text-4xl font-semibold uppercase leading-[1.02] sm:text-6xl lg:text-7xl">Build what<br /><span className="text-primary">moves next.</span></h2><p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">Be part of an emerging service-robot initiative shaped by people, purpose, and a real-world vision.</p><Button asChild size="lg" className="glow mt-9 h-12 font-mono text-[11px] uppercase tracking-[0.16em]"><a href="https://forms.gle/QdBmCoCjYrANhGS57" target="_blank" rel="noopener noreferrer">Join Project JAKE <ArrowRight /></a></Button></Reveal>
             <Reveal className="hidden justify-center lg:flex"><Parallax strength={0.045}><img src={robot} alt="JAKE service robot" className="max-h-[520px] w-auto robot-shadow" /></Parallax></Reveal>
           </div>
         </section>
